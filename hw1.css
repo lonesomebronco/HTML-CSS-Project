@@ -3,6 +3,12 @@
   50% { transform: translate(-2px, 0); }
   100% { transform: translate(2px, 0); }
 }
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1);
+  100% { transform: scale(1); }
+  }
+}
 a
 {
   color: #000000;
@@ -47,6 +53,8 @@ header
 a:hover
 {
   border: 1px solid #000000;
+  animation: wiggle 75ms infinite;
+  animation-timing-function: linear;   
 }
 
 nav
@@ -87,6 +95,11 @@ section
   height: auto;
   border: 2px solid #000000;
   margin:  45px auto;
+}
+.left img:hover
+{
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;
 }
 .right
 {
