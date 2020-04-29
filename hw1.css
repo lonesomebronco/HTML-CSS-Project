@@ -81,7 +81,7 @@ section
 .left
 {
   display: inline-block;
-  width: 35%;
+  width: 30%;
   float: left;
   background: #698B22;
   height: 100vh;
@@ -90,9 +90,9 @@ section
 {
   display: block;
   width: 80%;
-  height: auto;
+  height: 30%;
   border: 2px solid #000000;
-  margin:  45px auto;
+  margin:  10px auto;
 }
 .left img:hover
 {
@@ -108,8 +108,8 @@ section
   padding-bottom: 15%;
   height: auto;
   background: white;
-  margin-left: 1%
-  background-color: #808083;
+  margin-left: 3%;
+  background-color: #FFFFFF;
 }
 /* Before reviewing please note that I have done all the questions(and all their parts) completely and give marks according to it only please!*/
 table
